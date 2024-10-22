@@ -1,0 +1,194 @@
+{
+  "allBusses": [
+    {
+      "id": "a567",
+      "name": "ABC Travels",
+      "source": "ernakulam",
+      "destination": "bangaloor",
+      "totalSeats": "40",
+      "seatsRemaining": "40",
+      "fare": "500",
+      "date": "2024-10-23",
+      "time": "03:30"
+    },
+    {
+      "id": "e4bd",
+      "name": "Angri birds",
+      "source": "bangaloor",
+      "destination": "ernakulam",
+      "totalSeats": "40",
+      "seatsRemaining": "40",
+      "fare": "500",
+      "date": "2024-10-24",
+      "time": "4.00 am"
+    },
+    {
+      "id": "d21b",
+      "name": "Evergreen",
+      "source": "aluva",
+      "destination": "mahie",
+      "totalSeats": "40",
+      "seatsRemaining": "40",
+      "fare": "250",
+      "date": "2024-10-24",
+      "time": "6.30 am"
+    },
+    {
+      "id": "51f3",
+      "name": "Sun Shine",
+      "source": "mahie",
+      "destination": "aluva",
+      "totalSeats": "40",
+      "seatsRemaining": "40",
+      "fare": "250",
+      "date": "2024-10-25",
+      "time": "4.30 am"
+    },
+    {
+      "id": "4fda",
+      "name": "Night Dream",
+      "source": "ernakulam",
+      "destination": "aluva",
+      "totalSeats": "40",
+      "seatsRemaining": "40",
+      "fare": "250",
+      "date": "2024-10-23",
+      "time": "4.30 pm"
+    }
+  ],
+  "userDetails": [
+    {
+      "id": "149c",
+      "name": "Fasna",
+      "phone": "7558903465",
+      "email": "fasnamarackar1993@gmail.com",
+      "password": "123",
+      "tickets": []
+    },
+    {
+      "id": "5ecd",
+      "name": "Max",
+      "phone": "8089914402",
+      "email": "max@gmail.com",
+      "password": "123",
+      "tickets": [
+        {
+          "id": "7459",
+          "name": "Evergreen",
+          "source": "aluva",
+          "destination": "mahie",
+          "seats": "1",
+          "fare": "250",
+          "totalFare": 250,
+          "date": "2024-10-24",
+          "time": "6.30 am",
+          "bookedDate": "Mon Oct 21 2024"
+        }
+      ]
+    },
+    {
+      "id": "45ef",
+      "name": "Anas@gmail.com",
+      "phone": "8089914402",
+      "email": "anas@gmail.com",
+      "password": "123",
+      "tickets": []
+    },
+    {
+      "id": "d84c",
+      "name": "Sisu",
+      "phone": "7558903465",
+      "email": "sisu@gmail.com",
+      "password": "123",
+      "tickets": [
+        {
+          "id": "7d69",
+          "name": "Angri birds",
+          "source": "bangaloor",
+          "destination": "ernakulam",
+          "seats": "2",
+          "fare": "500",
+          "totalFare": 1000,
+          "date": "2024-10-24",
+          "time": "4.00 am",
+          "bookedDate": "Mon Oct 21 2024"
+        }
+      ]
+    },
+    {
+      "id": "bea2",
+      "name": "Bubz",
+      "phone": "7558903465",
+      "email": "bubz@gmail.com",
+      "password": "123",
+      "tickets": [
+        {
+          "id": "3b96",
+          "name": "Angri birds",
+          "source": "bangaloor",
+          "destination": "ernakulam",
+          "seats": "2",
+          "fare": "500",
+          "totalFare": 1000,
+          "date": "2024-10-24",
+          "time": "4.00 am",
+          "bookedDate": "Mon Oct 21 2024"
+        }
+      ]
+    },
+    {
+      "id": "911f",
+      "name": "Miller",
+      "phone": "7558903465",
+      "email": "miller@gmail.com",
+      "password": "123",
+      "tickets": []
+    },
+    {
+      "id": "cbc6",
+      "name": "sisu",
+      "phone": "7558903465",
+      "email": "sisu@gmail.com",
+      "password": "123",
+      "tickets": []
+    }
+  ],
+  "tickets": [
+    {
+      "id": "7d69",
+      "name": "Angri birds",
+      "source": "bangaloor",
+      "destination": "ernakulam",
+      "seats": "2",
+      "fare": "500",
+      "totalFare": 1000,
+      "date": "2024-10-24",
+      "time": "4.00 am",
+      "bookedDate": "Mon Oct 21 2024"
+    },
+    {
+      "id": "c0c4",
+      "name": "ABC Travels",
+      "source": "ernakulam",
+      "destination": "bangaloor",
+      "seats": "2",
+      "fare": "500",
+      "totalFare": 1000,
+      "date": "2024-10-23",
+      "time": "03:30",
+      "bookedDate": "Mon Oct 21 2024"
+    },
+    {
+      "id": "7459",
+      "name": "Evergreen",
+      "source": "aluva",
+      "destination": "mahie",
+      "seats": "1",
+      "fare": "250",
+      "totalFare": 250,
+      "date": "2024-10-24",
+      "time": "6.30 am",
+      "bookedDate": "Mon Oct 21 2024"
+    }
+  ]
+}
